@@ -10,15 +10,17 @@ html {
 
 body {
   background-color: #eee9de;
+  padding: 0;
   margin: 0 auto;
-  padding: 2rem;
   max-width: 1440px;
 }
 
 section {
+  text-align: center;
 }
 
 div {
+  text-align: left;
   padding: .5rem;
   display: inline-block;
   vertical-align: middle;
@@ -27,7 +29,7 @@ div {
 }
 
 div:first-child {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   padding-bottom: 0;
 }
 
@@ -39,22 +41,22 @@ img {
   padding-right: .4rem;
 }
 
-h2, p, {
+h2, p {
   text-align: left;
   font-family: Lato, sans-serif;
 }
 
 h2 {
+  font-weight: bold;
   margin: 1.5rem 0 1.5rem 0;
 }
 
 p {
-  text-align: left;
-  padding-bottom: 1rem;
   margin-bottom: 1.5rem;
 }
 
 .btn {
+  display: inline-block;
   text-decoration: none;
   color: #666;
   padding: .75rem;
