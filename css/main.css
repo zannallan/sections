@@ -11,7 +11,7 @@ html {
 body {
   background-color: #eee9de;
   padding-top: 2rem;
-  padding-bottom: 2rem:
+  padding-bottom: 2rem;
   margin: 0;
   width: 100%;
 }
@@ -22,18 +22,16 @@ section {
 
 div {
   text-align: left;
-  padding: .5rem;
   display: inline-block;
   vertical-align: middle;
-  padding-left: 1rem;
+  padding: 1rem .5rem;
   max-width: 25rem;
 }
 
 img {
   display: block;
   width: 100%;
-  max-width: 376px;
-  padding-right: .4rem;
+  max-width: 25rem;
 }
 
 h2, p, .btn {
@@ -44,7 +42,7 @@ h2, p, .btn {
 h2 {
   font-weight: bold;
   margin-bottom: 1.5rem;
-  margin-top: 1.5rem;
+  margin-top: 0;
 }
 
 p {
