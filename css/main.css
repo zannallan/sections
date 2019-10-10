@@ -22,7 +22,7 @@ section {
 }
 
 div {
-  padding: 0.5rem;
+  padding: .5rem;
   display: inline-block;
   vertical-align: middle;
   margin: 0 auto;
@@ -31,37 +31,42 @@ div {
 }
 
 div:first-child {
-  padding-top: 1.5rem;
+  margin-top: 1.5rem;
+  padding-bottom: 0;
 }
 
 img {
-  display: block;
+  text-align: center;
   width: 100%;
+  min-width: 320px;
+  margin-top: 1rem;
+  padding-right: .4rem;
 }
 
-h1, p {
+h2, p {
   font-family: Lato, sans-serif;
 }
 
-h1 {
-  margin: 0;
+h2 {
+  margin: 1.5 0 1.5 0;
 }
 
 p {
-  padding-bottom: 0.4rem;
+  text-align: left;
+  padding-bottom: 1rem;
   margin-bottom: 1.5rem;
 }
 
-a {
+.btn {
   font-family: Lato, sans-serif;
   text-decoration: none;
   color: #666;
-  padding: 0.75rem;
+  padding: .75rem;
   border-radius: 10px;
   border: 2px solid #333;
 }
 
-a:hover {
+.btn:hover {
   color: #eee9de;
   background-color: #666;
   border: 2px solid #666;
