@@ -16,22 +16,31 @@ body {
 }
 
 section {
-  padding: 0.5rem;
-  display: inline-block;
-  vertical-align: middle;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 div {
+  padding: 0.5rem;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
   padding-left: 1rem;
   max-width: 25rem;
 }
 
 img {
   display: block;
+  width: 100%;
 }
 
 h1, p {
   font-family: Lato, sans-serif;
+}
+
+h1 {
+  margin: 0;
 }
 
 p {
