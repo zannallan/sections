@@ -16,16 +16,12 @@ body {
 }
 
 section {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 div {
   padding: .5rem;
   display: inline-block;
   vertical-align: middle;
-  margin: 0 auto;
   padding-left: 1rem;
   max-width: 25rem;
 }
@@ -38,17 +34,18 @@ div:first-child {
 img {
   text-align: center;
   width: 100%;
-  min-width: 320px;
+  max-width: 376px;
   margin-top: 1rem;
   padding-right: .4rem;
 }
 
-h2, p {
+h2, p, {
+  text-align: left;
   font-family: Lato, sans-serif;
 }
 
 h2 {
-  margin: 1.5 0 1.5 0;
+  margin: 1.5rem 0 1.5rem 0;
 }
 
 p {
@@ -58,7 +55,6 @@ p {
 }
 
 .btn {
-  font-family: Lato, sans-serif;
   text-decoration: none;
   color: #666;
   padding: .75rem;
